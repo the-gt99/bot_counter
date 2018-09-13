@@ -22,3 +22,5 @@ app.post('/', bot.listen)
  
 // Start listen on 3000
 app.listen(process.env.PORT || 3000)
+
+console.log('u mam222')
