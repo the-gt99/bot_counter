@@ -10,7 +10,7 @@ const bot = new Botact({
  
 // User wrote any message
 bot.on((ctx) => {
-  console.log(ctx)
+  console.log('u mam')
   ctx.reply('What?')
 })
  
