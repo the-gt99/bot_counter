@@ -25,6 +25,6 @@ app.use(bodyParser.json())
 app.post('/', bot.listen)
  
 // Start listen on 3000
-app.listen(process.env.3000)
+app.listen(3000)
 
 console.log('u mam222')
