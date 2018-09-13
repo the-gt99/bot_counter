@@ -35,4 +35,4 @@ app.use(bodyParser.json())
 app.post('/', bot.listen)
  
 // Start listen on 3000
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3000)
